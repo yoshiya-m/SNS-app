@@ -1,6 +1,4 @@
-
 <?php
-
 namespace Middleware;
 
 use Response\HTTPRenderer;

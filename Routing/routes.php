@@ -20,9 +20,9 @@ use Routing\Route;
 
 return [
 
-    '' => Route::create('component/register-form', function (): HTTPRenderer {
+    '' => Route::create('component/home', function (): HTTPRenderer {
 
-        return new HTMLRenderer('component/register-form');
+        return new HTMLRenderer('component/home');
     }),
     'random/part' => Route::create('random/part', function (): HTTPRenderer {
         $partDao = DAOFactory::getComputerPartDAO();
